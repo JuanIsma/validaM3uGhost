@@ -1,0 +1,27 @@
+body{
+
+    font-size: medium;
+    font-family:  Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.container{
+    margin-top: 6%;
+}
+
+.contiene{
+    background-color: aquamarine;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100%; /* Esto centra verticalmente la imagen */
+    
+}
+
+#casper{
+    margin-top: 10%;
+    margin-left: 40%;
+}
+
+ #separar{
+    margin-top: 2%;
+}

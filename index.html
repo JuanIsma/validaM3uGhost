@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+             <!-- Enlaces a los archivos CSS de Bootstrap -->
+             <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+             <link href="estilo.css" rel="stylesheet">
+</head>
+<body class="bg-dark text-white">
+  <div class="container">
+      <h2 class="text-center mb-4">CHEAKER M3U </h2>
+      <input type="text" id="display" class="form-control mb-4" style="height: 60px;">
+      <div class="row">
+          <div class="col" style="height: 360px;">
+              <button onclick="capturarValor()" class="btn btn-primary btn-block" style="height: 60px;">Validar</button>
+              <form  id="separar">
+                  <label for="message">Información:</label><br>
+                  <textarea id="textoCapturado" name="message" rows="4" cols="50" style="width:100%; height: 250px;"></textarea><br>
+              </form>
+          </div>
+      </div>
+      <div class="row">
+          <div class="col"  id="casper">
+              <img src="https://pngimg.com/d/casper_PNG3.png" width="100" height="100">
+              <h6 class="text  ">GHOST IPTV M3U</h6>
+          </div>
+      </div>
+  </div>
+  <script src="scriptM3u.js"></script>
+</body>
+
+ 
+  
+</html>
